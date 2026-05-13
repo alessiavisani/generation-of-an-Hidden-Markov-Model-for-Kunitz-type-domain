@@ -1,4 +1,4 @@
-# generation of an Hidden Markov Model for Kunitz type domain
+# generation of a Hidden Markov Model for Kunitz type domain
 This repository features a bioinformatic workflow for identifying Kunitz domains by combining Python logic with Linux toolchains. The project emphasizes reproducibility and automation, using shell-level management and data processing to ensure consistent, reliable protein profile generation across different systems for streamlined research.
 
 All the code for a reproducible workflow can be found here [code](https://github.com/alessiavisani/generation-of-an-Hidden-Markov-Model-for-Kunitz-type-domain/blob/main/linux_commands.md)
