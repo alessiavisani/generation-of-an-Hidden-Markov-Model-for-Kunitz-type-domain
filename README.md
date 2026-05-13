@@ -7,5 +7,8 @@ All the code for a reproducible workflow can be found here [code](https://github
 **project aim**: 
 The project aimed to develop a high-quality Hidden Markov Model (HMM) by curating a non-redundant training set of structural monodomains to ensure a sharp, specific statistical signal for the Kunitz family.
 
+**results**:
+The resulting model, achieved a near-perfect Matthews Correlation Coefficient (MCC) of 0.982 and demonstrated high discriminative power across over 570,000 UniProt entries at a consensus E-value threshold of 10-5.
+
 ![Kunitz HMM Dashboard](GENERATION%20OF%20A%20HIDDEN%20MARKOV%20MODEL%20PROFILE%20FOR%20KUNITZ%20DOMAIN%20ANNOTATION%20ANALYSIS%20AND%20EVALUATION.png)
 
