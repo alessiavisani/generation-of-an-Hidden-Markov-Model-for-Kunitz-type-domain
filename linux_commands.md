@@ -124,7 +124,7 @@ inspecting the output
 less kunitz.ali
 ```
 
-After an initial multiple sequence alignment (MSA) and visual inspection of the output, a final manual curation step was performed to ensure the highest statistical confidence for the HMM profile.
+After an initial multiple structure alignment (MSA) and visual inspection of the output, a final manual curation step was performed to ensure the highest statistical confidence for the HMM profile.
 
 Two specific entries were identified as outliers:
 - 1D0D (Chain A)
