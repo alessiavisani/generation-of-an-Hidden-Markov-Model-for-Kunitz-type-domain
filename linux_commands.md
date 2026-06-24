@@ -84,7 +84,7 @@ for i in $(cat pdb_id.rep); do wget "http://files.rcsb.org/view/${i}.pdb"; done
 
 Once the PDB files are downloaded, we must isolate the specific structural coordinates for the Kunitz domain. In a PDB file, the relevant structural data is contained in lines starting with the ATOM record. Within these lines, position 22 (column-based) identifies the Chain ID.
 
-To automate the extraction of specific chains from each downloaded PDB file, we follow this workflow starting from our original file * pdb_id_chain.rep* containig our chain of interest:
+To automate the extraction of specific chains from each downloaded PDB file, we follow this workflow starting from our original file *pdb_id_chain.rep* containig our chain of interest:
 
 ```
 sed 's/\(.\)$/\t\1/' pdb_id_chain.rep > pdb_ids_tab_separated.rep
